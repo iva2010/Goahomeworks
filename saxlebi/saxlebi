@@ -1,0 +1,55 @@
+from turtle import *
+
+
+# we want to built a house
+#step 1: draw a square
+width(5)
+forward(200)
+left(90)
+forward(200)
+left(90)
+forward(200)
+left(90)
+forward(200)
+#end of square
+
+ # we want to draw a door
+color("green")
+begin_fill()
+left(40)
+right(40)
+left(50)
+left(50)
+forward(60)
+left(90)
+forward(90)
+left(90)
+forward(45)
+end_fill()
+#end of door
+# we want to draw a roof
+color("purple")
+begin_fill()
+right(180)
+left(40)
+forward(270)
+left(200)
+forward(105)
+end_fill()
+#end of roof
+#drawing of window
+color("red")
+begin_fill()
+left(50)
+forward(120)
+left(250)
+forward(30)
+left(100)
+forward(30)
+left(50)
+forward(25)
+end_fill()
+#end of window
+
+
+exitonclick()
