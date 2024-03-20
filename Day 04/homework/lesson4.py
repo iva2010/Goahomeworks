@@ -1,0 +1,5 @@
+print("გამარჯობა მეგობარო")
+name=input("რა არის შენი სახელი:")
+surname=input("რა გვარი ხარ:")
+age=input("რამდენი წლის ხარ:")
+print(name +surname + str(age))
